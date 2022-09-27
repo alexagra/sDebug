@@ -1,0 +1,22 @@
+{
+    "name": "sDebug",
+    "version": "1.0.0",
+    
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/alexagra/sDebug.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Alex Agrafiotis"
+       
+      }
+     
+    ],
+    "license": "MIT",
+   
+    "frameworks": "*",
+    "platforms": "*"
+  }
