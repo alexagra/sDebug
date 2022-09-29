@@ -17,6 +17,6 @@
     ],
     "license": "MIT",
    
-    "frameworks": "*",
+    "frameworks": "Arduino",
     "platforms": "*"
   }
