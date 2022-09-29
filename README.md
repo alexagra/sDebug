@@ -1,46 +1,31 @@
 # sDebug
->Basic Debug library for  easier serial prints in arduino framework code
 
+> Basic Debug library for easier serial prints in arduino framework code
 
-
-
-
-
-
-
-
-
-
-
->EXAMPLE:
-
-
+> EXAMPLE:
 
 #define sDEBUG
 
 #include "sDebug.h"
 
-
 void setup()
 {
 
-    sDEBUG_BEGIN(x)
-}
+    sDEBUG_BEGIN(115200);
 
+}
 
 void loop()
 {
 
-    int test = 5;  
-    
+    int test = 5;
+
     PRINT(test);
+
 }
 
->OUTPUT:
+> OUTPUT:
 
 (millis):(function):(line) --> (var):(value)
 
-
-12262   :  loop()  :  33   --> test :   5
-
-
+12262 : loop() : 33 --> test : 5
