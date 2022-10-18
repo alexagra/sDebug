@@ -1,4 +1,8 @@
 
+
+#define sDEBUG_BEGIN(x) Serial.begin(x)
+#define DELAY(t) vTaskDelay(t / portTICK_PERIOD_MS);
+
 #if defined(sDEBUG)
 #define PRINT(x)                \
     Serial.print(millis());     \
@@ -12,9 +16,6 @@
     Serial.println(x);          \
     Serial.println();
 
-#define sDEBUG_BEGIN(x) Serial.begin(x)
-
 #else
 #define PRINT(x)
-#define sDEBUG_BEGIN(x)
 #endif
